@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <h1>Event Registration:</h1>
+      <label for="name">Name:</label>
+      <br />
+      <input type="text" name="name" id="name" placeholder="your name" />
+      <br />
+      <br />
+      <label for="email">Email:</label>
+      <br />
+      <input type="text" name="email" id="email" placeholder="xyz@gmail.com" />
+      <br />
+      <br />
+      <label for="phone">Phone:</label>
+      <br />
+      <input type="tel" name="phone" id="phone" placeholder="123456789" />
+      <br />
+      <br />
+      <label for="occ">Occupation:</label>
+      <select name="occ" id="occ">
+        <option value="st">Student</option>
+        <option value="pr">Professional</option>
+        <option value="oth">Other</option>
+      </select>
+      <br />
+      <br />
+      <fieldset>
+        <legend>Topics Of Intrest</legend>
+        <label for="html">HTML</label>
+        <input type="checkbox" name="coding" id="html" />
+        <br />
+        <label for="css">CSS</label>
+        <input type="checkbox" name="coding" id="css" />
+        <br />
+        <label for="js">JavaScript</label>
+        <input type="checkbox" name="coding" id="js" />
+        <br />
+      </fieldset>
+      <br />
+      <label for="comment">Comment:</label>
+      <br />
+      <textarea
+        name="comment"
+        id="comment"
+        cols="30"
+        rows="10"
+        placeholder="Your Text Here"
+      ></textarea>
+      <button>register</button>
+    </form>
+  </body>
+</html>
