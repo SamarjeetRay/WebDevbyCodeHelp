@@ -1,0 +1,23 @@
+/* External Css  */
+/* Element selector */
+h1{
+    font-style: italic;
+    text-align: center;
+    
+}
+/* ID Selector */
+#randomId{
+    color: green;
+}
+/* Class Selector */
+.art{
+    color: red;
+    background-color: aqua;
+}
+/* Group Selector */
+p,article{
+    width: 500px;
+}
+p.art{
+    text-align: center;
+}
