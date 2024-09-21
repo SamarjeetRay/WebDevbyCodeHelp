@@ -1,0 +1,25 @@
+img{
+    margin: 10px;
+}
+
+div{
+    border: 1px solid black;
+}
+/* .img2{
+    position: fixed;
+    top: 200px;
+} */
+.container{
+    position: relative;
+    height: 1500px;
+    background-color: bisque;
+}
+.img4{
+    position: sticky;
+    top: 0px;
+}
+.container2{
+    
+    height: 1500px;
+    background-color: aqua;
+}
